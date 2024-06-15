@@ -110625,7 +110625,7 @@ q.c=A.aOI(s-B.e.bn(A.bP(0,B.d.ao(B.e.bn(p.a,1000)/3)).a,1000),!1)
 s=o.y
 s.d=r
 q=s.e
-s.e=(q>2?s.e=2:q)*0.95
+s.e=(q>1.6?s.e=1.6:q)*0.95
 A.cn("New Prev: "+s.c.j(0))
 A.cn("New Next: "+o.y.d.j(0))
 A.cn("New Velocity: "+A.h(o.y.e));++o.Q
