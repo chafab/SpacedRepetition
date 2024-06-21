@@ -110585,10 +110585,11 @@ break
 case"Forget":A.cn("Forget card functionality to be implemented.")
 break
 case"Open":this.a.yi()
-break}},
+break
+case"v1.0":break}},
 $S:69}
 A.aG2.prototype={
-$1(a){var s=A.cB(["Open","Save CSV","Save Json","Forget"],t.N),r=s.$ti.h("iY<1,lZ<k>>")
+$1(a){var s=A.cB(["Open","Save CSV","Save Json","Forget","v1.0"],t.N),r=s.$ti.h("iY<1,lZ<k>>")
 return A.a4(new A.iY(s,new A.aG1(),r),!0,r.h("m.E"))},
 $S:635}
 A.aG1.prototype={
@@ -110652,6 +110653,7 @@ r=new A.dz(s,!1)
 q=j.y
 p=q.c.a
 o=A.bP(0,s-p)
+if(o.a<0)o=B.l
 n=A.bP(0,q.d.a-p)
 p=B.e.bn(o.a,1000)
 m=A.bP(0,B.d.ao(p*q.e))
@@ -110664,11 +110666,10 @@ A.cn("Diff Time: "+o.j(0))
 A.cn("Planned Diff Time: "+n.j(0))
 A.cn("Additional Time: "+m.j(0))
 q=j.y
+q.c=r
 l=q.d
-if(s<l.a){q.d=l.B(0,m)
-s=j.y
-s.c=s.c.B(0,m)}else{q.c=r
-q.d=r.B(0,m)
+if(s<l.a)q.d=l.B(0,m)
+else{q.d=r.B(0,m)
 k=B.d.cT(p/B.e.bn(n.a,1000),0,1)
 s=j.y
 s.e=s.e*(1+0.05*k)}A.cn("New Prev: "+j.y.c.j(0))
@@ -110730,7 +110731,7 @@ $1(a){var s=a
 return A.b5m(s)},
 $S:641}
 A.aFT.prototype={
-$1(a){var s=this.a.B(0,a.a)
+$1(a){var s=this.a.B(0,a.a+a.f)
 return s},
 $S:120}
 A.aFU.prototype={
