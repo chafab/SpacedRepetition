@@ -110586,10 +110586,10 @@ case"Forget":A.cn("Forget card functionality to be implemented.")
 break
 case"Open":this.a.yi()
 break
-case"v1.0":break}},
+case"v1.0.1":break}},
 $S:69}
 A.aG2.prototype={
-$1(a){var s=A.cB(["Open","Save CSV","Save Json","Forget","v1.0"],t.N),r=s.$ti.h("iY<1,lZ<k>>")
+$1(a){var s=A.cB(["Open","Save CSV","Save Json","Forget","v1.0.1"],t.N),r=s.$ti.h("iY<1,lZ<k>>")
 return A.a4(new A.iY(s,new A.aG1(),r),!0,r.h("m.E"))},
 $S:635}
 A.aG1.prototype={
@@ -110614,6 +110614,7 @@ if(o.y!=null){s=Date.now()
 r=new A.dz(s,!1)
 q=o.y
 p=A.bP(0,q.d.a-q.c.a)
+if(p.a<0)p=B.l
 A.cn("--- _falsePressed ---")
 A.cn("Current Time: "+r.j(0))
 A.cn("Previous Prev: "+o.y.c.j(0))
