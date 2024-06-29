@@ -2094,7 +2094,7 @@ b7t(a){return t.e.a({runApp:t.g.a(A.bg(new A.ail(a)))})},
 aRu(a,b){var s=t.g.a(A.bg(new A.aMN(a,b)))
 return new self.Promise(s)},
 aQU(a){var s=B.d.aE(a)
-return A.bP(B.d.aE((a-s)*1000),s)},
+return A.bP(B.d.aE((a-s)*1000),s,0)},
 beH(a,b){var s={}
 s.a=null
 return new A.aL4(s,a,b)},
@@ -2193,7 +2193,7 @@ r=A.aB(A.Z(["passive",c],t.N,s))
 A.a2(d,"addEventListener",[a,q,r==null?s.a(r):r])}A.cq(d,a,q,null)
 return new A.a3q(a,d,q)},
 Ke(a){var s=B.d.aE(a)
-return A.bP(B.d.aE((a-s)*1000),s)},
+return A.bP(B.d.aE((a-s)*1000),s,0)},
 b_I(a,b){var s,r,q,p,o=b.gex().a,n=$.cj
 if((n==null?$.cj=A.eW():n).a&&a.offsetX===0&&a.offsetY===0)return A.bf0(a,o)
 n=b.gex()
@@ -8088,7 +8088,7 @@ if(a>=10)return"0"+a
 return"00"+a},
 n_(a){if(a>=10)return""+a
 return"0"+a},
-bP(a,b){return new A.az(a+1000*b)},
+bP(a,b,c){return new A.az(a+1000*b+6e7*c)},
 b7f(a,b){var s,r
 for(s=0;s<3;++s){r=a[s]
 if(r.b===b)return r}throw A.c(A.hw(b,"name","No enum value with that name"))},
@@ -32613,7 +32613,7 @@ j=Date.now()
 if(k.a>j){A.ci("Invalid Date found")
 k=o
 j=p
-m=new A.az(Math.abs(A.bP(0,k.a-j.a).a))
+m=new A.az(Math.abs(A.bP(0,k.a-j.a,0).a))
 A.ci(m)
 p=new A.dh(Date.now(),!1)
 o=new A.dh(Date.now(),!1).B(0,m)}k=p
@@ -34370,7 +34370,7 @@ b_X(a,b){var s=t.s,r=A.b(a.split("\n"),s)
 $.aaV().W(0,r)
 if(!$.aQT)A.aZs()},
 aZs(){var s,r=$.aQT=!1,q=$.aSt()
-if(A.bP(q.ga43(),0).a>1e6){if(q.b==null)q.b=$.Wt.$0()
+if(A.bP(q.ga43(),0,0).a>1e6){if(q.b==null)q.b=$.Wt.$0()
 q.dD(0)
 $.aan=0}while(!0){if(!($.aan<12288?!$.aaV().ga6(0):r))break
 s=$.aaV().ti()
@@ -34728,7 +34728,7 @@ s=1
 break
 case 1:return A.q(q,r)}})
 return A.r($async$aRd,r)},
-bhz(a){if(isFinite(a))return A.bP(0,B.d.ao(a*1000))
+bhz(a){if(isFinite(a))return A.bP(0,B.d.ao(a*1000),0)
 else if(a==1/0||a==-1/0)return B.M3
 return null},
 bfd(){return $.b2_()},
@@ -34767,9 +34767,9 @@ r=a.a
 q=s.a
 if(r<q){p.JI()
 p.c=a
-return}if(p.b==null)p.b=A.cc(A.bP(0,r-q),p.gN_())
+return}if(p.b==null)p.b=A.cc(A.bP(0,r-q,0),p.gN_())
 else if(p.c.a>r){p.JI()
-p.b=A.cc(A.bP(0,r-q),p.gN_())}p.c=a},
+p.b=A.cc(A.bP(0,r-q,0),p.gN_())}p.c=a},
 JI(){var s=this.b
 if(s!=null)s.ai(0)
 this.b=null},
@@ -34777,7 +34777,7 @@ awS(){var s=this,r=s.a.$0(),q=s.c,p=r.a
 q=q.a
 if(p>=q){s.b=null
 q=s.d
-if(q!=null)q.$0()}else s.b=A.cc(A.bP(0,q-p),s.gN_())}}
+if(q!=null)q.$0()}else s.b=A.cc(A.bP(0,q-p,0),s.gN_())}}
 A.abs.prototype={
 v6(){var s=0,r=A.t(t.H),q=this,p
 var $async$v6=A.u(function(a,b){if(a===1)return A.p(b,r)
@@ -35935,7 +35935,7 @@ gHy(){return this.e},
 lY(){var s,r,q=this.a
 q===$&&A.a()
 s=q.a
-q=A.bP(0,B.d.aE(s.currentFrameDuration()))
+q=A.bP(0,B.d.aE(s.currentFrameDuration()),0)
 r=A.aTI(s.makeImageAtCurrentFrame(),null)
 s.decodeNextFrame()
 return A.di(new A.CB(q,r),t.Uy)},
@@ -41895,7 +41895,7 @@ p.r=B.e.d1(j+1,i)
 i=k.duration
 j=i==null?null:i
 j=j==null?null:B.d.aE(j)
-o=A.bP(j==null?0:j,0)
+o=A.bP(j==null?0:j,0,0)
 j=$.c4.bs()
 i=$.c4.bs().AlphaType.Premul
 n=$.c4.bs().ColorType.RGBA_8888
@@ -41940,7 +41940,7 @@ if(p.dx!=null)$.aPd=A.xv()
 this.a.a=!1
 s=B.d.aE(1000*a)
 r=p.at
-if(r!=null){q=A.bP(s,0)
+if(r!=null){q=A.bP(s,0,0)
 p.as=A.aN(t.Kw)
 A.oE(r,p.ax,q)
 p.as=null}r=p.ay
@@ -46813,7 +46813,7 @@ A.akP.prototype={
 $1(a){this.a.a_1()},
 $S:3}
 A.akQ.prototype={
-$1(a){var s=A.bP(this.b.ga43(),0).a<2e5,r=self.document.hasFocus()&&s,q=this.a
+$1(a){var s=A.bP(this.b.ga43(),0,0).a<2e5,r=self.document.hasFocus()&&s,q=this.a
 if(r)q.c.focus()
 else q.a.IA()},
 $S:3}
@@ -54869,10 +54869,10 @@ gq(a){return this.b}}
 A.awa.prototype={}
 A.ap6.prototype={}
 A.pk.prototype={
-j(a){var s,r=A.y(this).j(0),q=this.a,p=A.bP(q[2],0),o=q[1],n=A.bP(o,0),m=q[4],l=A.bP(m,0),k=A.bP(q[3],0)
-o=A.bP(o,0)
+j(a){var s,r=A.y(this).j(0),q=this.a,p=A.bP(q[2],0,0),o=q[1],n=A.bP(o,0,0),m=q[4],l=A.bP(m,0,0),k=A.bP(q[3],0,0)
+o=A.bP(o,0,0)
 s=q[0]
-return r+"(buildDuration: "+(A.h((p.a-n.a)*0.001)+"ms")+", rasterDuration: "+(A.h((l.a-k.a)*0.001)+"ms")+", vsyncOverhead: "+(A.h((o.a-A.bP(s,0).a)*0.001)+"ms")+", totalSpan: "+(A.h((A.bP(m,0).a-A.bP(s,0).a)*0.001)+"ms")+", layerCacheCount: "+q[6]+", layerCacheBytes: "+q[7]+", pictureCacheCount: "+q[8]+", pictureCacheBytes: "+q[9]+", frameNumber: "+B.b.gG(q)+")"}}
+return r+"(buildDuration: "+(A.h((p.a-n.a)*0.001)+"ms")+", rasterDuration: "+(A.h((l.a-k.a)*0.001)+"ms")+", vsyncOverhead: "+(A.h((o.a-A.bP(s,0,0).a)*0.001)+"ms")+", totalSpan: "+(A.h((A.bP(m,0,0).a-A.bP(s,0,0).a)*0.001)+"ms")+", layerCacheCount: "+q[6]+", layerCacheBytes: "+q[7]+", pictureCacheCount: "+q[8]+", pictureCacheBytes: "+q[9]+", frameNumber: "+B.b.gG(q)+")"}}
 A.kl.prototype={
 J(){return"AppLifecycleState."+this.b}}
 A.CQ.prototype={
@@ -55696,7 +55696,7 @@ s===$&&A.a()
 r=B.e.bn(s.b.a-15e6,1000)
 s=this.ay
 s===$&&A.a()
-s.jF(A.bP(0,Math.max(r,0)))},
+s.jF(A.bP(0,Math.max(r,0),0))},
 avW(){var s,r,q
 this.oS()
 s=this.e
@@ -55705,7 +55705,7 @@ r=B.e.bn(s.a.a,1000)
 q=B.e.bn(s.b.a+15e6,1000)
 s=this.ay
 s===$&&A.a()
-s.jF(A.bP(0,Math.min(q,r)))},
+s.jF(A.bP(0,Math.min(q,r),0))},
 E8(){this.ch.toString
 this.r=A.cc(B.hu,new A.aAR(this))},
 W4(){var s,r=this
@@ -58485,7 +58485,7 @@ A.ahW.prototype={
 $1(a){var s=window
 s.toString
 B.Dy.aJX(s,"focus",this)
-A.tk(A.bP(0,500),null,t.z).bt(0,new A.ahX(this.a,this.b),t.P)},
+A.tk(A.bP(0,500,0),null,t.z).bt(0,new A.ahX(this.a,this.b),t.P)},
 $S:17}
 A.ahX.prototype={
 $1(a){var s=this.a
@@ -60180,7 +60180,7 @@ q=r.x
 q===$&&A.a()
 q=A.a8(800,0,q)
 q.toString
-q=A.bP(0,Math.min(B.d.eL(q),300))
+q=A.bP(0,Math.min(B.d.eL(q),300),0)
 r.z=B.aM
 r.ln(1,B.pp,q)}else{if(n)o.b.fB()
 r=o.a
@@ -60189,7 +60189,7 @@ if(q!=null&&q.a!=null){q=r.x
 q===$&&A.a()
 q=A.a8(0,800,q)
 q.toString
-q=A.bP(0,B.d.eL(q))
+q=A.bP(0,B.d.eL(q),0)
 r.z=B.jg
 r.ln(0,B.pp,q)}}q=r.r
 if(q!=null&&q.a!=null){p=A.bp("animationStatusCallback")
@@ -84139,7 +84139,7 @@ A.cc(B.l,new A.asf(r))
 A.cc(B.l,new A.asg(r,s))
 r.aGR(new A.ash(r))},
 UG(a){var s=this.rx$
-return A.bP(B.d.ao((s==null?B.l:new A.az(a.a-s.a)).a/1)+this.ry$.a,0)},
+return A.bP(B.d.ao((s==null?B.l:new A.az(a.a-s.a)).a/1)+this.ry$.a,0,0)},
 an6(a){if(this.RG$){this.y1$=!0
 return}this.a4P(a)},
 anA(){var s=this
@@ -95575,7 +95575,7 @@ r.a=s.b.ah(0,q.gl(q))
 r.b=Math.min(0.025+75e-8*l*l,1)
 r=n.b
 r===$&&A.a()
-r.e=A.bP(0,B.d.ao(0.15+l*0.02))
+r.e=A.bP(0,B.d.ao(0.15+l*0.02),0)
 r.mG(0,0)
 n.at=0.5
 n.a=B.aca}else{q=a.d
@@ -95800,7 +95800,7 @@ q.a=o.b.ah(0,n.gl(n))
 q.b=Math.min(0.016+1.01/p,1)
 q=s.a
 q===$&&A.a()
-q.e=A.bP(0,B.d.ao(p*0.02))
+q.e=A.bP(0,B.d.ao(p*0.02),0)
 q.mG(0,0)
 s.e=B.adh
 s.r=r>0?B.nM:B.E_}else if(a.d!=null){s=s.d
@@ -98830,7 +98830,7 @@ default:f=null}if(f!=null){c=d.d.at
 c.toString
 c=Math.abs(f-c)<1}if(c){p.e=!1
 s=1
-break}e=A.bP(0,B.d.ao(1000/p.c))
+break}e=A.bP(0,B.d.ao(1000/p.c),0)
 s=3
 return A.v(d.d.kD(f,B.w,e),$async$uQ)
 case 3:s=p.e?4:5
@@ -106832,7 +106832,7 @@ return A.c3(q,p,p,p,p,A.dR(p,p,p,p,p,p,p,p,p,p,p,o.f,p,p,p,p,p,!0,p,p,p,p,p,p,p,
 $S:618}
 A.Mq.prototype={
 I(a){return A.IU(new A.aGX(this,a),this.c,t.z2)},
-aHH(a){return this.e.$1(A.bP(0,B.d.aE(a)))}}
+aHH(a){return this.e.$1(A.bP(0,B.d.aE(a),0))}}
 A.aGX.prototype={
 $2(a,b){var s=this.a
 return A.IU(new A.aGW(s,b,this.b),s.d,t.Tu)},
@@ -107089,7 +107089,7 @@ break
 case 3:l=Date.now()
 o=p.ch
 s=5
-return A.v(A.tk(A.bP(0,(o==null?null:A.af2(o*1000,!0)).a-l),null,t.z),$async$wv)
+return A.v(A.tk(A.bP(0,(o==null?null:A.af2(o*1000,!0)).a-l,0),null,t.z),$async$wv)
 case 5:case 4:p.a.toString
 if(b==="PUT")f.c5(0,"Content-Length",new A.ajt())
 if(B.c.b8(c,"http://")||B.c.b8(c,"https://"))l=""+c
@@ -110594,10 +110594,10 @@ case"Forget":A.ci("Forget card functionality to be implemented.")
 break
 case"Open":this.a.yi()
 break
-case"v1.0.2":break}},
+case"v1.0.3":break}},
 $S:69}
 A.aG2.prototype={
-$1(a){var s=A.cB(["Open","Save CSV","Save Json","Forget","v1.0.2"],t.N),r=s.$ti.h("iY<1,lZ<k>>")
+$1(a){var s=A.cB(["Open","Save CSV","Save Json","Forget","v1.0.3"],t.N),r=s.$ti.h("iY<1,lZ<k>>")
 return A.a4(new A.iY(s,new A.aG1(),r),!0,r.h("m.E"))},
 $S:635}
 A.aG1.prototype={
@@ -110621,7 +110621,7 @@ $0(){var s,r,q,p,o=this.a
 if(o.y!=null){s=Date.now()
 r=new A.dh(s,!1)
 q=o.y
-p=A.bP(0,q.d.a-q.c.a)
+p=A.bP(0,q.d.a-q.c.a,0)
 if(p.a<0)p=B.l
 A.ci("--- _falsePressed ---")
 A.ci("Current Time: "+r.j(0))
@@ -110631,7 +110631,7 @@ A.ci("Previous Velocity: "+A.h(o.y.e))
 A.ci("Diff Time: "+p.j(0))
 q=o.y
 q.toString
-q.c=A.aOI(s-B.e.bn(A.bP(0,B.d.ao(B.e.bn(p.a,1000)/3)).a,1000),!1)
+q.c=A.aOI(s-B.e.bn(A.bP(0,B.d.ao(B.e.bn(p.a,1000)/3),0).a,1000),!1)
 s=o.y
 s.d=r
 q=s.e
@@ -110661,26 +110661,28 @@ if(j.y!=null){s=Date.now()
 r=new A.dh(s,!1)
 q=j.y
 p=q.c.a
-o=A.bP(0,s-p)
-if(o.a<0)o=B.l
-n=A.bP(0,q.d.a-p)
+o=A.bP(0,s-p,0)
+n=o.a
+if(n<0)o=B.l
+else if(n<A.bP(0,0,10).a)o=A.bP(0,0,10)
+m=A.bP(0,q.d.a-p,0)
 p=B.e.bn(o.a,1000)
-m=A.bP(0,B.d.ao(p*q.e))
+l=A.bP(0,B.d.ao(p*q.e),0)
 A.ci("--- _truePressed ---")
 A.ci("Current Time: "+r.j(0))
 A.ci("Previous Prev: "+j.y.c.j(0))
 A.ci("Previous Next: "+j.y.d.j(0))
 A.ci("Previous Velocity: "+A.h(j.y.e))
 A.ci("Diff Time: "+o.j(0))
-A.ci("Planned Diff Time: "+n.j(0))
-A.ci("Additional Time: "+m.j(0))
+A.ci("Planned Diff Time: "+m.j(0))
+A.ci("Additional Time: "+l.j(0))
 q=j.y
 q.c=r
-l=n.a
-if(s<q.d.a){m=new A.az(m.a+Math.abs(l))
-s=q}else{k=B.d.cT(p/B.e.bn(l,1000),0,1)
+n=m.a
+if(s<q.d.a){l=new A.az(l.a+Math.abs(n))
+s=q}else{k=B.d.cT(p/B.e.bn(n,1000),0,1)
 s=j.y
-s.e=s.e*(1+0.05*k)}s.d=r.B(0,m)
+s.e=s.e*(1+0.05*k)}s.d=r.B(0,l)
 A.ci("New Prev: "+j.y.c.j(0))
 A.ci("New Next: "+j.y.d.j(0))
 A.ci("New Velocity: "+A.h(j.y.e));++j.as;++j.cy
@@ -110771,7 +110773,7 @@ A.aFK.prototype={
 $1(a){return a.d.a>this.a.a},
 $S:120}
 A.aFL.prototype={
-$1(a){return B.e.bn(A.bP(0,a.d.a-this.a.a).a,864e8)},
+$1(a){return B.e.bn(A.bP(0,a.d.a-this.a.a,0).a,864e8)},
 $S:644}
 A.aFM.prototype={
 $2(a,b){return a+b},
@@ -110850,7 +110852,7 @@ p=p.e.b!==B.a4?p.gl(0):null
 p.toString
 p=p&&this.cx.a===B.BI
 s=a.c
-if(p){p=A.bP(0,Date.now()-a.b.a)
+if(p){p=A.bP(0,Date.now()-a.b.a,0)
 r=this.fy
 r=r.e.b!==B.a4?r.gl(0):null
 r.toString
@@ -112063,7 +112065,7 @@ return A.v(p.b.dG("load",A.Z(["audioSource",n,"initialPosition",m,"initialIndex"
 case 3:o=d
 o.toString
 n=J.ak(o)
-q=new A.pG(n.i(o,"duration")==null||A.bL(n.i(o,"duration"))<0?null:A.bP(A.bL(n.i(o,"duration")),0))
+q=new A.pG(n.i(o,"duration")==null||A.bL(n.i(o,"duration"))<0?null:A.bP(A.bL(n.i(o,"duration")),0,0))
 s=1
 break
 case 1:return A.q(q,r)}})
@@ -112191,7 +112193,7 @@ break
 case 1:return A.q(q,r)}})
 return A.r($async$je,r)}}
 A.an3.prototype={
-$1(a){var s,r,q,p,o,n=null,m="duration",l="icyMetadata",k=J.ak(a),j=B.Qj[A.bL(k.i(a,"processingState"))],i=A.af2(A.bL(k.i(a,"updateTime")),!1),h=A.bP(A.bL(k.i(a,"updatePosition")),0),g=A.bP(A.bL(k.i(a,"bufferedPosition")),0),f=k.i(a,m)==null||A.bL(k.i(a,m))<0?n:A.bP(A.bL(k.i(a,m)),0)
+$1(a){var s,r,q,p,o,n=null,m="duration",l="icyMetadata",k=J.ak(a),j=B.Qj[A.bL(k.i(a,"processingState"))],i=A.af2(A.bL(k.i(a,"updateTime")),!1),h=A.bP(A.bL(k.i(a,"updatePosition")),0,0),g=A.bP(A.bL(k.i(a,"bufferedPosition")),0,0),f=k.i(a,m)==null||A.bL(k.i(a,m))<0?n:A.bP(A.bL(k.i(a,m)),0,0)
 if(k.i(a,l)==null)s=n
 else{s=t.f
 r=s.a(k.i(a,l))
@@ -112429,7 +112431,7 @@ break
 case 8:case 4:m.d=B.mh
 m.mo()
 g=j.duration
-q=isFinite(g)?A.bP(0,B.d.aE(g*1000)):null
+q=isFinite(g)?A.bP(0,B.d.aE(g*1000),0):null
 s=1
 break
 case 1:return A.q(q,r)
@@ -112627,7 +112629,7 @@ var $async$dC=A.u(function(c,d){if(c===1)return A.p(d,r)
 while(true)switch(s){case 0:p.y=b
 o=b==null
 p.r=(o?0:b)/1000
-o=!o?A.bP(0,b):null
+o=!o?A.bP(0,b,0):null
 s=3
 return A.v(p.a.GB(p.e,o),$async$dC)
 case 3:o=d
@@ -112679,10 +112681,10 @@ Y5(){var s=this.x
 if((s==null?null:(s.a.a&30)!==0)===!1)s.eW(0)},
 gvC(a){return this.w},
 gbK(a){var s=this.y
-if(s!=null)return A.bP(0,s)
-return A.bP(0,B.d.aE(A.jy(this.a.x.currentTime)*1000))},
+if(s!=null)return A.bP(0,s,0)
+return A.bP(0,B.d.aE(A.jy(this.a.x.currentTime)*1000),0)},
 gazA(){var s=this.a.x
-if(s.buffered.length>0)return A.bP(0,B.d.aE(s.buffered.end(s.buffered.length-1)*1000))
+if(s.buffered.length>0)return A.bP(0,B.d.aE(s.buffered.end(s.buffered.length-1)*1000),0)
 else return B.l}}
 A.Wy.prototype={}
 A.RK.prototype={}
@@ -115695,7 +115697,7 @@ cQ(a){return A.h0(this.b.play(),t.X).rg(new A.axU(this),new A.axV())},
 jF(a){var s=this.ga1f(),r=a.a
 if(r===s.a)return
 this.b.currentTime=B.e.bn(r,1000)/1000},
-ga1f(){return A.bP(0,B.d.ao(this.b.currentTime*1000))},
+ga1f(){return A.bP(0,B.d.ao(this.b.currentTime*1000),0)},
 m(){var s=this.b
 s.removeAttribute("src")
 s.load()},
@@ -115711,7 +115713,7 @@ s=a?B.abo:B.abp
 this.a.B(0,new A.ka(s,r,r,r,r))}},
 a_k(){this.a.B(0,new A.ka(B.abn,null,null,this.awT(this.b.buffered),null))},
 awT(a){var s,r=A.b([],t.SE)
-for(s=0;s<a.length;++s)r.push(new A.Ef(A.bP(0,B.d.ao(a.start(s)*1000)),A.bP(0,B.d.ao(a.end(s)*1000))))
+for(s=0;s<a.length;++s)r.push(new A.Ef(new A.az(1000*B.d.ao(a.start(s)*1000)),new A.az(1000*B.d.ao(a.end(s)*1000))))
 return r}}
 A.axN.prototype={
 $1(a){this.a.x_(!1)},
@@ -124057,7 +124059,7 @@ return m})
 r($,"bns","aSq",()=>new A.a41(B.acK,B.a0))
 s($,"bno","b2c",()=>A.jr(1,0,t.V))
 s($,"blQ","le",()=>A.hG(null,t.uK))
-s($,"bnn","b2b",()=>A.bP(16667,0))
+s($,"bnn","b2b",()=>A.bP(16667,0,0))
 s($,"bmg","b1B",()=>A.aPY(0.5,1.1,100))
 s($,"bkY","aNP",()=>A.b0k(0.78)/A.b0k(0.9))
 s($,"bo2","b2z",()=>A.amt(A.cB([B.lF],t.bd)))
