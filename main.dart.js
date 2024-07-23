@@ -32674,17 +32674,17 @@ _.e=b
 _.f=c
 _.r=null
 _.x=d
-_.y=null
-_.as=_.Q=_.z=0
-_.at=!1
-_.ax=e
-_.ay=0
-_.ch=f
-_.CW=g
-_.db=_.cy=_.cx=0
-_.dx=$
-_.dy=""
-_.fr=h
+_.z=_.y=null
+_.at=_.as=_.Q=0
+_.ax=!1
+_.ay=e
+_.ch=0
+_.CW=f
+_.cx=g
+_.dx=_.db=_.cy=0
+_.dy=$
+_.fr=""
+_.fx=h
 _.eJ$=i
 _.bE$=j
 _.a=null
@@ -110336,13 +110336,13 @@ h=A.b([new A.Ji(m.d,h,B.Df,B.CS,B.CT,!0,l)],j)
 if(J.kj(m.f)){s=A.c3("Select File",l,l,l,l,l,l,l,l)
 r=m.r
 q=J.mF(m.f,new A.aGc(),t.b7)
-h.push(new A.xd(A.a4(q,!0,q.$ti.h("a9.E")),r,s,new A.aGd(m),!0,l,t.Af))}if(m.at)h.push(new A.rB(B.DD,l,l,l,l,l,l,l))
+h.push(new A.xd(A.a4(q,!0,q.$ti.h("a9.E")),r,s,new A.aGd(m),!0,l,t.Af))}if(m.ax)h.push(new A.rB(B.DD,l,l,l,l,l,l,l))
 s=m.y
 if((s==null?l:s.f)!=null)h.push(new A.bJ(B.dE,A.c3(s.f,l,l,l,l,A.dR(l,l,l,l,l,l,l,l,l,l,l,16,l,l,B.b8,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l))
-if(m.x.length>0){s=m.dx
+if(m.x.length>0){s=m.dy
 s===$&&A.a()
 r=A.b([A.aQb("Front"),A.aQb("Back"),A.aQb("Stats")],j)
-q=m.dx
+q=m.dy
 p=m.y
 p=p==null?l:p.a
 p=A.IB(A.aPr(p==null?"":p),l,B.w,l,l,B.ap)
@@ -110351,7 +110351,7 @@ o=o==null?l:o.b
 q=A.n6(new A.J6(q,A.b([p,A.IB(A.aPr(o==null?"":o),l,B.w,l,l,B.ap),A.IB(A.aPr(m.atG()),l,B.w,l,l,B.ap)],j),l),1)
 p=A.Z([0,new A.ly(),1,new A.ly(),2,new A.ly(),3,new A.ly(),4,new A.ly(),5,new A.ly()],t.S,t.PA)
 n=new A.bs(B.Wl,1,B.A,-1)
-h.push(A.n6(new A.DT(2,A.iV(A.b([new A.J5(r,s,l),q,new A.bJ(B.dE,new A.fN(new A.at(0,800,0,1/0),A.bbn(new A.YZ(n,n,n,n,n,n,B.aC),A.b([new A.kU(new A.d5(B.p4,l,l,l,l,l,l,B.ak),A.b([new A.bJ(B.bH,A.c3("To Be Reviewed",l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3("Total Cards",l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3("Viewed Cards",l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3("Mistaken Cards",l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3("Correct Ratio",l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3("Score",l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l)],j)),new A.kU(new A.d5(B.kh,l,l,l,l,l,l,B.ak),A.b([new A.bJ(B.bH,A.c3(""+m.cx,l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3(""+m.x.length,l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3(""+m.ch.a,l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3(""+m.CW.length,l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3(""+m.z,l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3(A.h(m.db),l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l)],j))],t.nk),p),l),l),A.jl(A.b([A.aPa(A.c3("False",l,l,l,l,l,l,l,l),new A.aGe(m)),A.aPa(A.c3("Next",l,l,l,l,l,l,l,l),new A.aGf(m)),A.aPa(A.c3("True",l,l,l,l,l,l,l,l),new A.aGg(m))],j),B.am,B.lP,B.b3)],j),B.am,B.aA,B.b3,l,B.aT),l),1))}return A.aWV(new A.CQ(k,i,new A.a55(l,l,1/0,56),l),new A.bJ(B.Me,A.iV(h,B.am,B.aA,B.b3,l,B.aT),l),l)},
+h.push(A.n6(new A.DT(2,A.iV(A.b([new A.J5(r,s,l),q,new A.bJ(B.dE,new A.fN(new A.at(0,800,0,1/0),A.bbn(new A.YZ(n,n,n,n,n,n,B.aC),A.b([new A.kU(new A.d5(B.p4,l,l,l,l,l,l,B.ak),A.b([new A.bJ(B.bH,A.c3("To Be Reviewed",l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3("Total Cards",l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3("Viewed Cards",l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3("Mistaken Cards",l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3("Correct Ratio",l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3("Score",l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l)],j)),new A.kU(new A.d5(B.kh,l,l,l,l,l,l,B.ak),A.b([new A.bJ(B.bH,A.c3(""+m.cy,l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3(""+m.x.length,l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3(""+m.CW.a,l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3(""+m.cx.length,l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3(""+m.Q,l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),new A.bJ(B.bH,A.c3(A.h(m.dx),l,l,l,l,A.dR(l,l,B.b5,l,l,l,l,l,l,l,l,8,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l)],j))],t.nk),p),l),l),A.jl(A.b([A.aPa(A.c3("False",l,l,l,l,l,l,l,l),new A.aGe(m)),A.aPa(A.c3("Next",l,l,l,l,l,l,l,l),new A.aGf(m)),A.aPa(A.c3("True",l,l,l,l,l,l,l,l),new A.aGg(m))],j),B.am,B.lP,B.b3)],j),B.am,B.aA,B.b3,l,B.aT),l),1))}return A.aWV(new A.CQ(k,i,new A.a55(l,l,1/0,56),l),new A.bJ(B.Me,A.iV(h,B.am,B.aA,B.b3,l,B.aT),l),l)},
 al9(){var s,r,q,p=this.x
 p=(self.URL||self.webkitURL).createObjectURL(A.aTx([B.bU.dq(new A.X(p,new A.aFB(),A.U(p).h("X<1,k>")).bU(0,"\n"))]))
 p.toString
@@ -110416,7 +110416,7 @@ s=n!=null?3:4
 break
 case 3:p=q.d
 p.xn(0,p.a.za(B.bz,B.j7,n))
-q.dy=n
+q.fr=n
 s=5
 return A.v(q.ya(),$async$uv)
 case 5:if(m!=null&&J.mD(q.f,m))q.a2(new A.aFG(q,m))
@@ -110436,15 +110436,15 @@ return A.q(null,r)}})
 return A.r($async$uv,r)},
 aO(){var s=this
 s.aZ()
-s.dx=A.aXy(B.l,0,3,s)
+s.dy=A.aXy(B.l,0,3,s)
 s.uv()
 s.d.a4(0,s.gash())},
-m(){var s=this.dx
+m(){var s=this.dy
 s===$&&A.a()
 s.m()
 this.agz()},
 asi(){var s=this,r=s.d
-if(s.dy!==r.a.a){s.a2(new A.aFP(s))
+if(s.fr!==r.a.a){s.a2(new A.aFP(s))
 if(r.a.a.split("/").length===2)s.ya()}},
 Qq(a){var s,r
 try{B.cY.dq(a)
@@ -110543,61 +110543,70 @@ break
 case 5:return A.q(null,r)
 case 1:return A.p(p,r)}})
 return A.r($async$yi,r)},
-atG(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e="</p>\n      <p>Tomorrow: ",d="</p>\n      <p>One week: ",c="</p>\n      <p>One month: ",b="</p>\n      <p>One quartermonth: ",a="</p>\n      <p>One semester: ",a0="</p>\n      <p>One Year: ",a1="</p>\n      <p>Velocity: ",a2=new A.dc(Date.now(),!1),a3=A.aOQ(A.yR(a2),A.Wt(a2),A.apK(a2),23,59,59),a4=a3.B(0,A.bx(1,0,0,0)),a5=a3.B(0,A.bx(7,0,0,0)),a6=a3.B(0,A.bx(30,0,0,0)),a7=a3.B(0,A.bx(90,0,0,0)),a8=a3.B(0,A.bx(180,0,0,0)),a9=a3.B(0,A.bx(365,0,0,0)),b0=f.x,b1=new A.av(b0,new A.aFR(a3),A.U(b0).h("av<1>")).gq(0)
-b0=f.x
-s=new A.av(b0,new A.aFS(a4),A.U(b0).h("av<1>")).gq(0)-b1
-b0=f.x
-r=new A.av(b0,new A.aFT(a5),A.U(b0).h("av<1>")).gq(0)-s-b1
-b0=f.x
-q=new A.av(b0,new A.aFU(a6),A.U(b0).h("av<1>")).gq(0)-r-s-b1
-b0=f.x
-p=new A.av(b0,new A.aFV(a7),A.U(b0).h("av<1>")).gq(0)-q-r-s-b1
-b0=f.x
-b0=new A.av(b0,new A.aFW(a8),A.U(b0).h("av<1>")).gq(0)
-o=f.x
-new A.av(o,new A.aFX(a9),A.U(o).h("av<1>")).gq(0)
-o=""+s
-n=""+r
-m=""+q
-l=""+p
-b0=""+(b0-p-q-r-s-b1)
-k="      <p>Today: "+b1
-if(f.y==null)return k+e+o+d+n+c+m+b+l+a+b0+a0+b0+"</p>\n    "
-else{j=A.bx(0,0,Date.now()-f.y.c.a,0).j(0)
-i=f.y
-h=i==null
-g=h?null:i.e
-return k+e+o+d+n+c+m+b+l+a+b0+a0+b0+"</p>\n      <p>Diff: "+j+a1+A.h(g)+a1+A.h(h?null:i.d)+"</p>\n    "}},
-qV(){var s,r,q,p,o,n,m=this,l={};++m.ay
+atG(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this,a=null,a0="      <p>Today: ",a1="</p>\n      <p>Tomorrow: ",a2="</p>\n      <p>One week: ",a3="</p>\n      <p>One month: ",a4="</p>\n      <p>One quartermonth: ",a5="</p>\n      <p>One semester: ",a6="</p>\n      <p>One Year: ",a7=new A.dc(Date.now(),!1),a8=A.aOQ(A.yR(a7),A.Wt(a7),A.apK(a7),23,59,59),a9=a8.B(0,A.bx(1,0,0,0)),b0=a8.B(0,A.bx(7,0,0,0)),b1=a8.B(0,A.bx(30,0,0,0)),b2=a8.B(0,A.bx(90,0,0,0)),b3=a8.B(0,A.bx(180,0,0,0)),b4=a8.B(0,A.bx(365,0,0,0)),b5=b.x,b6=new A.av(b5,new A.aFR(a8),A.U(b5).h("av<1>")).gq(0)
+b5=b.x
+s=new A.av(b5,new A.aFS(a9),A.U(b5).h("av<1>")).gq(0)-b6
+b5=b.x
+r=new A.av(b5,new A.aFT(b0),A.U(b5).h("av<1>")).gq(0)-s-b6
+b5=b.x
+q=new A.av(b5,new A.aFU(b1),A.U(b5).h("av<1>")).gq(0)-r-s-b6
+b5=b.x
+p=new A.av(b5,new A.aFV(b2),A.U(b5).h("av<1>")).gq(0)-q-r-s-b6
+b5=b.x
+o=new A.av(b5,new A.aFW(b3),A.U(b5).h("av<1>")).gq(0)-p-q-r-s-b6
+b5=b.x
+new A.av(b5,new A.aFX(b4),A.U(b5).h("av<1>")).gq(0)
+if(b.y==null){b5=""+o
+return a0+b6+a1+s+a2+r+a3+q+a4+p+a5+b5+a6+b5+"</p>\n    "}else{n=A.bx(0,0,Date.now()-b.y.c.a,0)
+b5=""+b6
+m=""+s
+l=""+r
+k=""+q
+j=""+p
+i=""+o
+if(b.z==null){h=n.j(0)
+g=b.y
+f=g==null
+e=f?a:g.e
+return a0+b5+a1+m+a2+l+a3+k+a4+j+a5+i+a6+i+"</p>\n      <p>Diff: "+h+"</p>\n      <p>Velocity: "+A.h(e)+"</p>\n      <p>Next: "+A.h(f?a:g.d)+"</p>\n    "}else{h=n.j(0)
+g=b.y
+f=g==null
+e=f?a:g.e
+g=A.h(f?a:g.d)
+d=b.z
+f=d==null
+c=f?a:d.e
+return"          <p>Today: "+b5+"</p>\n          <p>Tomorrow: "+m+"</p>\n          <p>One week: "+l+"</p>\n          <p>One month: "+k+"</p>\n          <p>One quartermonth: "+j+"</p>\n          <p>One semester: "+i+"</p>\n          <p>One Year: "+i+"</p>\n          <p>Diff: "+h+"</p>\n          <p>Velocity: "+A.h(e)+"</p>\n          <p>Next: "+g+"</p>\n          <p>PrevVelocity: "+A.h(c)+"</p>\n          <p>PrevNext: "+A.h(f?a:d.d)+"</p>\n        "}}},
+qV(){var s,r,q,p,o,n,m=this,l={};++m.ch
 B.b.eS(m.x,new A.aFJ())
 s=new A.dc(Date.now(),!1)
 r=m.x
-r=m.cx=new A.av(r,new A.aFK(s),A.U(r).h("av<1>")).gq(0)
+r=m.cy=new A.av(r,new A.aFK(s),A.U(r).h("av<1>")).gq(0)
 l.a=null
-q=m.CW
+q=m.cx
 p=q.length
-if(p<=7)p=m.cy>7&&p>0
+if(p<=7)p=m.db>7&&p>0
 else p=!0
 if(p){o=l.a=B.b.fC(q,0)
-if(B.b.u(m.fr,o)&&m.x.length>20){q.push(o)
+if(B.b.u(m.fx,o)&&m.x.length>20){q.push(o)
 m.qV()
-return}m.cy=0}else{if(r<3){q=B.e.d1(m.ay,2)
+return}m.db=0}else{if(r<3){q=B.e.d1(m.ch,2)
 p=m.x
-n=m.ax
-r=l.a=q!==0?p[n.q2(r)]:p[n.q2(p.length-r)+m.cx]}else if(r<10){q=B.e.d1(m.ay,3)
+n=m.ay
+r=l.a=q!==0?p[n.q2(r)]:p[n.q2(p.length-r)+m.cy]}else if(r<10){q=B.e.d1(m.ch,3)
 p=m.x
-n=m.ax
-o=q!==0?p[n.q2(r)]:p[n.q2(p.length-r)+m.cx]
+n=m.ay
+o=q!==0?p[n.q2(r)]:p[n.q2(p.length-r)+m.cy]
 l.a=o
-r=o}else{q=B.e.d1(m.ay,10)
+r=o}else{q=B.e.d1(m.ch,10)
 p=m.x
-n=m.ax
-o=q!==0?p[n.q2(r)]:p[n.q2(p.length-r)+m.cx]
+n=m.ay
+o=q!==0?p[n.q2(r)]:p[n.q2(p.length-r)+m.cy]
 l.a=o
-r=o}if(B.b.u(m.fr,r)&&m.x.length>20){m.qV()
+r=o}if(B.b.u(m.fx,r)&&m.x.length>20){m.qV()
 return}}r=m.x
 q=A.U(r)
-m.db=new A.dL(new A.av(r,new A.aFL(s),q.h("av<1>")),new A.aFM(s),q.h("dL<1,o>")).jn(0,0,new A.aFN())
+m.dx=new A.dL(new A.av(r,new A.aFL(s),q.h("av<1>")),new A.aFM(s),q.h("dL<1,o>")).jn(0,0,new A.aFN())
 m.a2(new A.aFO(l,m))},
 a_A(a){var s,r,q,p=this.c
 p.toString
@@ -110626,10 +110635,10 @@ case"Forget":A.ci("Forget card functionality to be implemented.")
 break
 case"Open":this.a.yi()
 break
-case"v1.0.6":break}},
+case"v1.0.7":break}},
 $S:76}
 A.aGa.prototype={
-$1(a){var s=A.cB(["Open","Save CSV","Save Json","Forget","v1.0.6"],t.N),r=s.$ti.h("iY<1,lZ<k>>")
+$1(a){var s=A.cB(["Open","Save CSV","Save Json","Forget","v1.0.7"],t.N),r=s.$ti.h("iY<1,lZ<k>>")
 return A.a4(new A.iY(s,new A.aG9(),r),!0,r.h("m.E"))},
 $S:635}
 A.aG9.prototype={
@@ -110670,20 +110679,20 @@ q=s.e
 s.e=(q>1.6?s.e=1.6:q)*0.95
 A.ci("New Prev: "+s.c.j(0))
 A.ci("New Next: "+o.y.d.j(0))
-A.ci("New Velocity: "+A.h(o.y.e));++o.Q
-s=o.CW
+A.ci("New Velocity: "+A.h(o.y.e));++o.as
+s=o.cx
 if(!B.b.u(s,o.y)){q=o.y
 q.toString
 s.push(q)}o.jR(o.d.a.a,o.r)
-o.cy=0}o.qV()
-o=o.dx
+o.db=0}o.qV()
+o=o.dy
 o===$&&A.a()
 o.ER(0,B.l)},
 $S:0}
 A.aGf.prototype={
 $0(){var s=this.a
 s.qV()
-s=s.dx
+s=s.dy
 s===$&&A.a()
 s.ER(0,B.l)},
 $S:0}
@@ -110717,10 +110726,10 @@ s=j.y
 s.e=s.e*(1+0.05*k)}s.d=r.B(0,l)
 A.ci("New Prev: "+j.y.c.j(0))
 A.ci("New Next: "+j.y.d.j(0))
-A.ci("New Velocity: "+A.h(j.y.e));++j.as;++j.cy
-B.b.E(j.CW,j.y)
+A.ci("New Velocity: "+A.h(j.y.e));++j.at;++j.db
+B.b.E(j.cx,j.y)
 j.jR(j.d.a.a,j.r)}j.qV()
-j=j.dx
+j=j.dy
 j===$&&A.a()
 j.ER(0,B.l)},
 $S:0}
@@ -110728,15 +110737,15 @@ A.aFB.prototype={
 $1(a){return a.f+"|"+a.a+"|"+a.b+"|"+A.aTM(a.c)+"|"+A.aTM(a.d)+"|"+A.h(a.e)},
 $S:638}
 A.aFC.prototype={
-$0(){this.a.at=!0},
+$0(){this.a.ax=!0},
 $S:0}
 A.aFD.prototype={
-$0(){this.a.at=!1},
+$0(){this.a.ax=!1},
 $S:0}
 A.aFE.prototype={
 $0(){var s=this.a
 s.f=this.b
-s.at=!1},
+s.ax=!1},
 $S:0}
 A.aG5.prototype={
 $1(a){return a.he()},
@@ -110764,7 +110773,7 @@ s.x=A.b([],t.bg)
 s.f=A.b([],t.s)},
 $S:0}
 A.aFY.prototype={
-$0(){this.a.at=!0},
+$0(){this.a.ax=!0},
 $S:0}
 A.aFZ.prototype={
 $1(a){return a.length!==0&&a!=="sfld|flds"},
@@ -110781,16 +110790,16 @@ A.aG1.prototype={
 $0(){var s=this.a,r=this.c
 s.x=r
 A.ci("Number of cards: "+r.length)
-s.at=!1},
+s.ax=!1},
 $S:0}
 A.aG2.prototype={
-$0(){this.a.at=!1},
+$0(){this.a.ax=!1},
 $S:0}
 A.aG3.prototype={
-$0(){this.a.at=!0},
+$0(){this.a.ax=!0},
 $S:0}
 A.aG4.prototype={
-$0(){this.a.at=!1},
+$0(){this.a.ax=!1},
 $S:0}
 A.aFQ.prototype={
 $0(){this.a.r=this.b},
@@ -110832,16 +110841,18 @@ A.aFN.prototype={
 $2(a,b){return a+b},
 $S:645}
 A.aFO.prototype={
-$0(){var s,r=this.b,q=this.a.a
-r.y=q
-B.b.fA(r.fr,0,q)
-q=r.fr
-if(q.length>7)r.fr=A.fF(q,0,A.fr(7,"count",t.S),A.U(q).c).fV(0)
-q=r.y
-r.ch.B(0,q.a+"$"+q.b)
-q=r.as
-s=q+r.Q
-r.z=s!==0?B.d.ao(100*q/s):0},
+$0(){var s,r,q=this.b
+q.z=q.y
+s=this.a.a
+q.y=s
+B.b.fA(q.fx,0,s)
+s=q.fx
+if(s.length>7)q.fx=A.fF(s,0,A.fr(7,"count",t.S),A.U(s).c).fV(0)
+s=q.y
+q.CW.B(0,s.a+"$"+s.b)
+s=q.at
+r=s+q.as
+q.Q=r!==0?B.d.ao(100*s/r):0},
 $S:0}
 A.aG7.prototype={
 $1(a){var s=null
