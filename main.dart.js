@@ -110630,7 +110630,7 @@ break
 case"v1.0.5":break}},
 $S:76}
 A.aGb.prototype={
-$1(a){var s=A.cB(["Open","Save CSV","Save Json","Forget","v1.0.3"],t.N),r=s.$ti.h("iY<1,lZ<k>>")
+$1(a){var s=A.cB(["Open","Save CSV","Save Json","Forget","v1.0.5"],t.N),r=s.$ti.h("iY<1,lZ<k>>")
 return A.a4(new A.iY(s,new A.aGa(),r),!0,r.h("m.E"))},
 $S:635}
 A.aGa.prototype={
