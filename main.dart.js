@@ -105568,10 +105568,10 @@ case"Forget":A.bX("Forget card functionality to be implemented.")
 break
 case"Open":this.a.yj()
 break
-case"v1.0.17":break}},
+case"v1.0.18":break}},
 $S:69}
 A.aIO.prototype={
-$1(a){var s=A.cD(["Open","Save CSV","Save Json","Forget","v1.0.17"],t.N),r=s.$ti.h("hH<1,mf<i>>")
+$1(a){var s=A.cD(["Open","Save CSV","Save Json","Forget","v1.0.18"],t.N),r=s.$ti.h("hH<1,mf<i>>")
 return A.a1(new A.hH(s,new A.aIN(),r),!0,r.h("n.E"))},
 $S:645}
 A.aIN.prototype={
