@@ -24065,7 +24065,7 @@ r=J.b9(g,1)
 q=J.b9(g,2)
 p=new A.cD(Date.now(),0,!1)
 o=new A.cD(Date.now(),0,!1)
-n=1.7
+n=1.6
 if(J.bJ(g)>3)p=A.auR(J.b9(g,3))
 if(J.bJ(g)>4)o=A.auR(J.b9(g,4))
 if(J.bJ(g)>5)n=A.aAv(J.b9(g,5))
@@ -81413,10 +81413,10 @@ case"Forget":A.bm("Forget card functionality to be implemented.")
 break
 case"Open":this.a.rw()
 break
-case"v1.0.21":break}},
+case"v1.0.22":break}},
 $S:66}
 A.akT.prototype={
-$1(a){var s=A.c4(["Open","Save CSV","Save Json","Forget","v1.0.21"],t.N),r=s.$ti.i("eS<1,jl<o>>")
+$1(a){var s=A.c4(["Open","Save CSV","Save Json","Forget","v1.0.22"],t.N),r=s.$ti.i("eS<1,jl<o>>")
 return A.a2(new A.eS(s,new A.akS(),r),!0,r.i("k.E"))},
 $S:512}
 A.akS.prototype={
@@ -81455,7 +81455,7 @@ r.c=s.jC(0-A.dH(0,B.d.aE(B.h.e1(q.a,1000)/3),0).a)
 r=o.y
 r.d=s
 p=r.e
-p=(p>1.7?r.e=1.7:p)*0.95
+p=(p>1.6?r.e=1.6:p)*0.95
 r.e=p
 if(p<1)r.e=1
 A.bm("New Prev: "+r.c.k(0))
@@ -81500,12 +81500,13 @@ n=j.y
 m=n.c
 l=A.is(s)===A.is(m)&&A.kD(s)===A.kD(m)&&A.ms(s)===A.ms(m)
 n.c=s
-n=s.i4(n.d)||l
-m=p.a
-if(n)o=new A.aX(Math.abs(m))
-else{k=B.d.f5(q/B.h.e1(m,1000),0,1)
+if(s.i4(n.d)||l)o=new A.aX(Math.abs(p.a))
+else{n=j.y
+if(n.e>1.9)n.e=1.9
+k=B.d.f5(q/B.h.e1(p.a,1000),0,1)
 q=j.y
-q.e=q.e*(1+0.05*k)}q=j.y
+n=q.e
+q.e=n+0.05*k*(1.9-n)/1.9}q=j.y
 q.toString
 q.d=s.jC(o.a)
 A.bm("New Prev: "+j.y.c.k(0))
