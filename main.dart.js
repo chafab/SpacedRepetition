@@ -81020,7 +81020,7 @@ o.push(r)}q=this.ax.ajM()*r
 for(p=o.length,s=0;s<p;++s)if(q<o[s])return s+b
 return a-1},
 k9(a){var s,r,q,p,o,n,m,l,k=this
-if(k.b.length===0)return;++k.ay
+if(k.b.length===0)return
 s=new A.cK(Date.now(),0,!1)
 r=A.HJ(A.hB(s),A.jm(s),A.kE(s),23,59,59)
 q=k.as
@@ -81035,7 +81035,8 @@ m=n&&p>0?o:k.b
 if(!n){k.as.W(0)
 k.at=s
 k.k9(0)
-return}q=A.V(m).i("ac<1>")
+return}++k.ay
+q=A.V(m).i("ac<1>")
 if(p===0)k.x=new A.ac(m,new A.adt(s),q).gp(0)
 else k.x=new A.ac(m,new A.adu(r),q).gp(0)
 A.bA("working length:"+m.length)
@@ -81100,7 +81101,7 @@ if(n.e>1.9)n.e=1.9
 k=B.d.f3(q/B.h.e0(p.a,1000),0,1)
 q=j.c
 n=q.e
-q.e=n+0.05*k*(1.9-n)/1.9}q=j.c
+q.e=n+0.06*k*(1.9-n)/1.9}q=j.c
 q.toString
 q.d=s.ie(o.a)
 A.bA("New Prev: "+j.c.c.k(0))
@@ -81127,11 +81128,11 @@ A.bA("Previous Velocity: "+A.l(o.c.e))
 A.bA("Diff Time: "+q.k(0))
 r=o.c
 r.toString
-r.c=s.ie(0-A.dl(0,0,B.d.aD(B.h.e0(q.a,1000)/3),0).a)
+r.c=s.ie(0-A.dl(0,0,B.d.aD(B.h.e0(q.a,1000)/5),0).a)
 r=o.c
 r.d=s
 p=r.e
-p=(p>1.6?r.e=1.6:p)*0.95
+p=(p>1.7?r.e=1.7:p)*0.95
 r.e=p
 if(p<1)r.e=1
 A.bA("New Prev: "+r.c.k(0))
@@ -81614,7 +81615,7 @@ case"Open":this.a.rz()
 break}},
 $S:67}
 A.akW.prototype={
-$1(a){var s=A.c4(["Open","Save CSV","Save Json","Forget","v1.0.23"],t.N),r=s.$ti.i("eQ<1,jl<m>>")
+$1(a){var s=A.c4(["Open","Save CSV","Save Json","Forget","v1.0.24"],t.N),r=s.$ti.i("eQ<1,jl<m>>")
 return A.a1(new A.eQ(s,new A.akV(),r),!0,r.i("k.E"))},
 $S:517}
 A.akV.prototype={
